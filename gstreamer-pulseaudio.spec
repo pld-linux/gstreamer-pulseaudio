@@ -1,12 +1,12 @@
 Summary:	GStreamer plugin for PulseAudio sound server
 Summary(pl):	Wtyczka GStreamera dla serwera d¼wiêku PulseAudio
 Name:		gstreamer-pulseaudio
-Version:	0.9.3
+Version:	0.9.4
 Release:	1
-License:	GPL v2+
+License:	LGPL v2.1+
 Group:		Libraries
 Source0:	http://0pointer.de/lennart/projects/gst-pulse/gst-pulse-%{version}.tar.gz
-# Source0-md5:	70c1897c7a51589797984a67dab90c86
+# Source0-md5:	7c60018e8b9ce7f62c7078bee5851f07
 URL:		http://0pointer.de/lennart/projects/gst-pulse/
 BuildRequires:	gstreamer-devel >= 0.10
 BuildRequires:	gstreamer-plugins-base-devel >= 0.10
