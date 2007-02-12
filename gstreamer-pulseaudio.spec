@@ -1,5 +1,5 @@
 Summary:	GStreamer plugin for PulseAudio sound server
-Summary(pl.UTF-8):   Wtyczka GStreamera dla serwera dźwięku PulseAudio
+Summary(pl.UTF-8):	Wtyczka GStreamera dla serwera dźwięku PulseAudio
 Name:		gstreamer-pulseaudio
 Version:	0.9.4
 Release:	1
