@@ -1,17 +1,18 @@
 Summary:	GStreamer plugin for PulseAudio sound server
 Summary(pl.UTF-8):	Wtyczka GStreamera dla serwera dźwięku PulseAudio
 Name:		gstreamer-pulseaudio
-Version:	0.9.5
+Version:	0.9.7
 Release:	1
 License:	LGPL v2.1+
 Group:		Libraries
 Source0:	http://0pointer.de/lennart/projects/gst-pulse/gst-pulse-%{version}.tar.gz
-# Source0-md5:	f9bfcb782c8b5a23d23863623f4fd003
+# Source0-md5:	166164eb07eacd1d70b965731eb6cbdb
 URL:		http://0pointer.de/lennart/projects/gst-pulse/
 BuildRequires:	gstreamer-devel >= 0.10
 BuildRequires:	gstreamer-plugins-base-devel >= 0.10
-BuildRequires:	pulseaudio-devel >= 0.9.7
+BuildRequires:	pulseaudio-devel >= 0.9.8
 BuildRequires:	pkgconfig
+Requires:	pulseaudio >= 0.9.8
 Obsoletes:	gstreamer-polypaudio
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -47,5 +48,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
-%attr(755,root,root) %{_libdir}/gstreamer-0.10/*.so
+%doc ChangeLog README
+%attr(755,root,root) %{_libdir}/gstreamer-0.10/libgstpulse.so
