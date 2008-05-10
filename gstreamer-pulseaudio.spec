@@ -13,6 +13,7 @@ BuildRequires:	gstreamer-plugins-base-devel >= 0.10
 BuildRequires:	pulseaudio-devel >= 0.9.8
 BuildRequires:	pkgconfig
 Requires:	pulseaudio >= 0.9.8
+Obsoletes:	gstreamer-audiosink-polypaudio
 Obsoletes:	gstreamer-polypaudio
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
